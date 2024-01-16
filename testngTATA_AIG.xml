@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+	  <parameter name="BRAND" value="Audi"/>
+	  <parameter name="CAR" value="A3"/>
+	  <classes>
+		  <class name="data_Provider.TATA_AIG_XML"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+	  <parameter name="BRAND" value="BENTLEY"/>
+	  <parameter name="CAR" value="BROOKLANDS"/>
+	  <classes>
+		  <class name="data_Provider.TATA_AIG_XML"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+	  <parameter name="BRAND" value="MCLAREN"/>
+	  <parameter name="CAR" value="720S"/>
+	  <classes>
+		  <class name="data_Provider.TATA_AIG_XML"/>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

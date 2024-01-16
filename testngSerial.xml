@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="AjioTest">
+    <classes>
+      <class name="testNG_Serial_Parallel_Execution.Ajio"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="AmazonTest">
+    <classes>
+      <class name="testNG_Serial_Parallel_Execution.Amazon"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="FlipkartTest">
+    <classes>
+      <class name="testNG_Serial_Parallel_Execution.Flipkart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
